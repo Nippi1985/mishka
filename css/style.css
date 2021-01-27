@@ -606,7 +606,8 @@ img {
         margin-top: 0;
         margin-right: 65px;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: -webkit-min-content -webkit-min-content;
+        grid-template-rows: min-content min-content;
         row-gap: 26px; } }
   @media (min-width: 1150px) {
     .knitting-type {
